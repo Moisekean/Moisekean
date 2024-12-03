@@ -1,1 +1,115 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Man - NFT Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cyber Man</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#collection">NFT Collection</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Cyber Man</h2>
+        <p>Welcome to Cyber Man, your gateway to exclusive NFTs that combine technology and art in innovative ways.</p>
+    </section>
+
+    <section id="collection">
+        <h2>Our NFT Collection</h2>
+        <div class="nft-gallery">
+            <div class="nft-item">
+                <img src="nft1.jpg" alt="NFT 1">
+                <p>NFT Title 1</p>
+            </div>
+            <div class="nft-item">
+                <img src="nft2.jpg" alt="NFT 2">
+                <p>NFT Title 2</p>
+            </div>
+            <div class="nft-item">
+                <img src="nft3.jpg" alt="NFT 3">
+                <p>NFT Title 3</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email us at <a href="mailto:info@cyberman.com">info@cyberman.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cyber Man. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.nft-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nft-item {
+    margin: 10px;
+}
+
+.nft-item img {
+    max-width: 200px;
+    border: 2px solid #333;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
